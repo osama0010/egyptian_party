@@ -1,0 +1,229 @@
+#Home {
+    width: 100%;
+    height: 660px;
+    position: relative;
+    background-image: url(../events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    color: white;
+}
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    position: absolute;
+}
+.content h2,p {
+    padding: 1px;
+    text-align: center;
+}
+.content h2 {
+    margin-top: 215px;
+    font-size: 60px;
+}
+.navMenu {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.navMenu a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.openNav {
+    cursor: pointer;
+    font-size:30px;
+    top: 50%;
+    left: 10px;
+}
+.toggle{
+    background-color: rgba(214, 46, 52, 0.677);
+    padding:0.3em;
+    cursor: pointer;
+    color: white;
+    margin: 0;
+}
+.innerText{
+    background-color:  #ccc;
+    padding:0.8em;
+    display: none;
+}
+.one{
+    display:block; 
+}
+
+#loading {
+    position: fixed;
+    background-color: #0e0d0d;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.sk-cube-grid {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 100px auto;
+    top: 30%;
+    left: 49%;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #D62E33;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+
+
+#countDate{
+    background-image:url(../invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+
+}
+.countLayer{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+.time{
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}  
+
+.contact{
+    margin-top: 10em!important;
+}
+
+.contact ul{
+    list-style-type: none;
+}
+
+.contact ul .text-red{
+    color: rgba(214, 46, 52, 0.945) !important;
+    margin: 2em 0;
+}
+
+.icons-contact div{
+    width:2.3em;
+    height:2.3em;
+    border: 1px solid rgb(48, 47, 47);
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  background-color 0.2s;
+    color:#3b3b3baf;
+    cursor: pointer;
+}
+.icons-contact div:hover{
+    background-color: rgba(214, 46, 52, 0.945) !important;
+    color:white !important;
+}
+#contact-us  textarea{
+    height: 200px;
+    resize: vertical;
+}
+#contact-us  button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:8px 15px;
+    border-radius: 0%;
+    transition: all 0.2s;
+}
+#char {
+    font-size: 20px;
+    color: #D62E33;
+}
+#go-up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999999999;
+    display: none;
+    color:rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+}
